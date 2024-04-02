@@ -1,0 +1,11 @@
+framework module CTLOcrAI {
+  umbrella header "CTLOcrAI.h"
+  export *
+
+  module * { export * }
+}
+
+module CTLOcrAI.Swift {
+  header "CTLOcrAI-Swift.h"
+  requires objc
+}
