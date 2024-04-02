@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Pods_CTLOcrAI.framework/Info.plist</key>
-		<data>
-		ll/iOGNmWhFJH0HKrUluWxDNH+g=
-		</data>
-		<key>Frameworks/Pods_CTLOcrAI.framework/Pods_CTLOcrAI</key>
-		<data>
-		JCOhoenfeDnfFmxS8Zzq3oTbzYg=
-		</data>
-		<key>Frameworks/Pods_CTLOcrAI.framework/_CodeSignature/CodeResources</key>
-		<data>
-		G7fghAqX+6mxXOtDLjCpkCWD8wY=
-		</data>
 		<key>Headers/CTLOcrAI-Swift.h</key>
 		<data>
 		nOBKiwNJ3GSFnZQJ7CpcPZ/0N4c=
@@ -75,27 +63,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Pods_CTLOcrAI.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N5O3+6Am8O0riZmgMy0VWCI0FG36TbMs4x4AX6dUfKc=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_CTLOcrAI.framework/Pods_CTLOcrAI</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			czX2EIoUA5Gm75cTlF+sSTN6RMVKcOABUJKWxYBXAFY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_CTLOcrAI.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			l9cyGWOYe0QXgfQwW4QGhJIdcLYn0SHvm4Phd5nnBXc=
-			</data>
-		</dict>
 		<key>Headers/CTLOcrAI-Swift.h</key>
 		<dict>
 			<key>hash2</key>

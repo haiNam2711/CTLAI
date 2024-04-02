@@ -27,7 +27,6 @@
 		262B7D342BB2CA68004AA12D /* CTLOcrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B7D332BB2CA68004AA12D /* CTLOcrService.swift */; };
 		262B7D372BB2CC68004AA12D /* CTLOcrCmtResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B7D362BB2CC68004AA12D /* CTLOcrCmtResponse.swift */; };
 		262B7D392BB2CF90004AA12D /* CmtGetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B7D382BB2CF90004AA12D /* CmtGetVC.swift */; };
-		263B40382BBBFA95000AA4BD /* Pods_CTLOcrAI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9447D5B9D9A1E9CDF10881E7 /* Pods_CTLOcrAI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		265496512B971DEE00B122C5 /* CTLOcrAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 265496502B971DEE00B122C5 /* CTLOcrAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		265C319E2BA8266A003D9C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C319D2BA8266A003D9C2D /* AppDelegate.swift */; };
 		265C31A02BA8266A003D9C2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C319F2BA8266A003D9C2D /* SceneDelegate.swift */; };
@@ -35,7 +34,6 @@
 		265C31A52BA8266A003D9C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265C31A32BA8266A003D9C2D /* Main.storyboard */; };
 		265C31A72BA8266C003D9C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265C31A62BA8266C003D9C2D /* Assets.xcassets */; };
 		265C31B32BA826A3003D9C2D /* CTLOcrAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2654964D2B971DEE00B122C5 /* CTLOcrAI.framework */; };
-		265C31B42BA826A3003D9C2D /* CTLOcrAI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2654964D2B971DEE00B122C5 /* CTLOcrAI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2663A8CB2BA8302400498F4E /* CTLOcrFDUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663A8CA2BA8302400498F4E /* CTLOcrFDUseCase.swift */; };
 		2663A8CD2BA8306700498F4E /* CTLOcrFDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663A8CC2BA8306700498F4E /* CTLOcrFDService.swift */; };
 		2663A8D12BA830DE00498F4E /* CTLOcrBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663A8D02BA830DE00498F4E /* CTLOcrBaseResponse.swift */; };
@@ -75,31 +73,6 @@
 			remoteInfo = CTLOcrAI;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		263B40392BBBFA96000AA4BD /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				263B40382BBBFA95000AA4BD /* Pods_CTLOcrAI.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		265C31B72BA826A3003D9C2D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				265C31B42BA826A3003D9C2D /* CTLOcrAI.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E6582ABDDEF2F8042C502F1 /* Pods_CTLOcrAIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTLOcrAIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -428,7 +401,6 @@
 				265496492B971DEE00B122C5 /* Sources */,
 				2654964A2B971DEE00B122C5 /* Frameworks */,
 				2654964B2B971DEE00B122C5 /* Resources */,
-				263B40392BBBFA96000AA4BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -447,7 +419,6 @@
 				265C31972BA8266A003D9C2D /* Sources */,
 				265C31982BA8266A003D9C2D /* Frameworks */,
 				265C31992BA8266A003D9C2D /* Resources */,
-				265C31B72BA826A3003D9C2D /* Embed Frameworks */,
 				1E170FAAF83A3E664C4DD8C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -874,7 +845,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C906473A45CF83F0CC665291 /* Pods-CTLOcrAIDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -907,7 +877,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CD7CB3C87D94460F778A1AB /* Pods-CTLOcrAIDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
