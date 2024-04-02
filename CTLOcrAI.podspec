@@ -15,6 +15,9 @@ Pod::Spec.new do |spec|
   
   spec.ios.deployment_target  = "13.0"
 
+  spec.dependency "Alamofire"
+  spec.dependency 'KeychainSwift'
+
   spec.vendored_frameworks = "CTLOcrAI.xcframework"
 
 end
