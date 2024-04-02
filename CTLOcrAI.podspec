@@ -2,9 +2,9 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "CTLOcrAI"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "SDK for AI Backend."
-  spec.description  = "..."
+  spec.description  = "SDK for AI Backend made by hnam2711"
   spec.homepage     = "https://github.com/haiNam2711/CTLOcrAI"
   spec.license      = "MIT"
   spec.author             = { "hnam2711" => "namcuong2711@gmail.com" }

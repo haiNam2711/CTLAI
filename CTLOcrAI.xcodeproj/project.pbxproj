@@ -21,13 +21,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0039C94E8BE19748028C1789 /* Pods_CTLOcrAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9447D5B9D9A1E9CDF10881E7 /* Pods_CTLOcrAI.framework */; };
 		05A0797410FCE3CCA65191F6 /* Pods_CTLOcrAIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6582ABDDEF2F8042C502F1 /* Pods_CTLOcrAIDemo.framework */; };
 		262691C82BA829AA0044A06E /* CTLOcrLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262691C72BA829AA0044A06E /* CTLOcrLoginService.swift */; };
 		262B7D322BB2C628004AA12D /* CTLOcrUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B7D312BB2C628004AA12D /* CTLOcrUseCase.swift */; };
 		262B7D342BB2CA68004AA12D /* CTLOcrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B7D332BB2CA68004AA12D /* CTLOcrService.swift */; };
 		262B7D372BB2CC68004AA12D /* CTLOcrCmtResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B7D362BB2CC68004AA12D /* CTLOcrCmtResponse.swift */; };
 		262B7D392BB2CF90004AA12D /* CmtGetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B7D382BB2CF90004AA12D /* CmtGetVC.swift */; };
+		263B40382BBBFA95000AA4BD /* Pods_CTLOcrAI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9447D5B9D9A1E9CDF10881E7 /* Pods_CTLOcrAI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		265496512B971DEE00B122C5 /* CTLOcrAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 265496502B971DEE00B122C5 /* CTLOcrAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		265C319E2BA8266A003D9C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C319D2BA8266A003D9C2D /* AppDelegate.swift */; };
 		265C31A02BA8266A003D9C2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C319F2BA8266A003D9C2D /* SceneDelegate.swift */; };
@@ -63,6 +63,7 @@
 		26BCA6332BAD6DC000583F18 /* CTLOcrS2TResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BCA6322BAD6DC000583F18 /* CTLOcrS2TResponse.swift */; };
 		26E6C88A2BA8277F003C2A0E /* CTLOcrAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C8862BA8277F003C2A0E /* CTLOcrAPIError.swift */; };
 		26E6C88C2BA8277F003C2A0E /* CTLOcrAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C8882BA8277F003C2A0E /* CTLOcrAPIClient.swift */; };
+		733583A89437FA488CB2B013 /* Pods_CTLOcrAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262691CC2BA82B020044A06E /* Pods_CTLOcrAI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		263B40392BBBFA96000AA4BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				263B40382BBBFA95000AA4BD /* Pods_CTLOcrAI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		265C31B72BA826A3003D9C2D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0039C94E8BE19748028C1789 /* Pods_CTLOcrAI.framework in Frameworks */,
+				733583A89437FA488CB2B013 /* Pods_CTLOcrAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				265496492B971DEE00B122C5 /* Sources */,
 				2654964A2B971DEE00B122C5 /* Frameworks */,
 				2654964B2B971DEE00B122C5 /* Resources */,
+				263B40392BBBFA96000AA4BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

@@ -4,44 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Pods-CTLOcrAI-umbrella.h</key>
-		<data>
-		YyCH3b2SU5PtmNQXCUkmoQ7dp60=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		ll/iOGNmWhFJH0HKrUluWxDNH+g=
 		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		WeolbofWsEcPTtqCf1Prm73iBeg=
-		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Headers/Pods-CTLOcrAI-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YyCH3b2SU5PtmNQXCUkmoQ7dp60=
-			</data>
-			<key>hash2</key>
-			<data>
-			ExdYD+j88P9nuVVdTCXXEWzAfj4Nwh64kQEjPSpOnv4=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WeolbofWsEcPTtqCf1Prm73iBeg=
-			</data>
-			<key>hash2</key>
-			<data>
-			nIOf/X+htDeIGxremxefJVdukYrbScpT/tGGpD4/6zg=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
