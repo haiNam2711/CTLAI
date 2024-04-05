@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e00GAatg5xLnp8mgWY/3vQt4WKo=
+		BP9dxgO5hPTdRPEZKpYqokhBuEQ=
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		v5Nf5GnVzuTGBRLq1CS/Vlgx4Bc=
+		kSjInNMV13mt7Qlj1OABbdbvJyw=
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pLlrUp/33jY92F3zF2lVzp9hrjI=
+		X8B3cEs9PoAUWav5hIQus9XMlAQ=
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pLlrUp/33jY92F3zF2lVzp9hrjI=
+		X8B3cEs9PoAUWav5hIQus9XMlAQ=
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		80zkv60N+0QOPelS/jYlErJi6iA=
+		u0juSqDPP8ROH8lAbLACu+iOgn8=
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		v5Nf5GnVzuTGBRLq1CS/Vlgx4Bc=
+		kSjInNMV13mt7Qlj1OABbdbvJyw=
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bQbFzw+iSTZSIiwe37Ep8/1v+L0=
+		+hifnLNFtaxaJJyCbZkKJQ40DPw=
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bQbFzw+iSTZSIiwe37Ep8/1v+L0=
+		+hifnLNFtaxaJJyCbZkKJQ40DPw=
 		</data>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ysY9UXgp2MShtRbZDfEuXzug0S0=
+		HQQBfIrzA52k+oT+BPIKK1Ae7Xw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OPR35tKlS4vHW1xhtwgR1Pkdbjl8gfS07lvWN5JLFNw=
+			7aJhL+FyqYzzF28wl/Fir03bxyVRVVmQJO0XColBC9c=
 			</data>
 		</dict>
 		<key>Modules/CTLOcrAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XkX6KqF+EChCswF1otbSoNbeTCFL9xCVGCI5JWbCFXs=
+			cpLRFDoTWmRAlFDDcJ8NJ4qy4QbxjiD//1q2pEF2tqs=
 			</data>
 		</dict>
 		<key>Modules/CTLOcrAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XkX6KqF+EChCswF1otbSoNbeTCFL9xCVGCI5JWbCFXs=
+			cpLRFDoTWmRAlFDDcJ8NJ4qy4QbxjiD//1q2pEF2tqs=
 			</data>
 		</dict>
 		<key>Modules/CTLOcrAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x9keNqFUOH/PfeMKJUvtVZ10KAu0Knt2hlQwX4SAtPs=
+			hJ/nGHXx5KbCWIrjusaUsJdkjhiHJdyuEjZnML8sr64=
 			</data>
 		</dict>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OPR35tKlS4vHW1xhtwgR1Pkdbjl8gfS07lvWN5JLFNw=
+			7aJhL+FyqYzzF28wl/Fir03bxyVRVVmQJO0XColBC9c=
 			</data>
 		</dict>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7p4USTEsW23aUfZ4PiO4WOEk6N8hbsVkdf5NoymuCs=
+			wBY6XEDfazAfwHII3nYO6Lx4zYsjR3TzO/oXMlFOhRo=
 			</data>
 		</dict>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7p4USTEsW23aUfZ4PiO4WOEk6N8hbsVkdf5NoymuCs=
+			wBY6XEDfazAfwHII3nYO6Lx4zYsjR3TzO/oXMlFOhRo=
 			</data>
 		</dict>
 		<key>Modules/CTLOcrAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			14D2/khQZB4qup0o5F/D4C7tCcyql+oUKSAXs4wIL9A=
+			AD/ljA95mRzUrzXxfOFxQ8x6nGpAK3lgOwAMNyEidM0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

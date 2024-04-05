@@ -4,7 +4,7 @@
 import Alamofire
 @_exported import CTLOcrAI
 import Foundation
-import KeychainSwift
+import Security
 import Swift
 import UIKit
 import _Concurrency
@@ -120,6 +120,10 @@ public class CTLOcrUserInfoResponse : Swift.Decodable {
   public var registeredMask: Swift.Int
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class CTLOcrKeychainHelper {
+  public static func get(dataOfKey key: Swift.String) -> Swift.String?
+  @objc deinit
 }
 public class CTLOcrLoginService {
   public init()

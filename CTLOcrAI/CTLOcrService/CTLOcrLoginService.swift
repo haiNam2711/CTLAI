@@ -7,7 +7,6 @@
 
 import Foundation
 import Alamofire
-import KeychainSwift
 
 public class CTLOcrLoginService {
     
@@ -34,11 +33,13 @@ public class CTLOcrLoginService {
                     let error = CTLOcrAPIError.serverSideError(dict)
                     completionHandler(.failure(error))
                 } else {
-                    if let token = data.data?.jwtToken {
-                        let _ = KeychainSwift().set(token, forKey: "token")
+                    if let token = data.data?.jwtToken, let tokenData = token.data(using: .utf8) {
+                        CTLOcrKeychainHelper.delete(dataForKey: "token")
+                        CTLOcrKeychainHelper.save(data: tokenData, forKey: "token")
                     }
-                    if let expire = data.data?.expireData {
-                        let _ = KeychainSwift().set(expire, forKey: "expire")
+                    if let expire = data.data?.expireData, let expireData = expire.data(using: .utf8) {
+                        CTLOcrKeychainHelper.delete(dataForKey: "expire")
+                        CTLOcrKeychainHelper.save(data: expireData, forKey: "expire")
                     }
                     completionHandler(.success(data))
                 }

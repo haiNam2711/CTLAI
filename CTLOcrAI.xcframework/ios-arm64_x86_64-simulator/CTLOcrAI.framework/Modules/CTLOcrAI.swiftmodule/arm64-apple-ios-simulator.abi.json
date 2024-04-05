@@ -807,13 +807,6 @@
         "moduleName": "CTLOcrAI"
       },
       {
-        "kind": "Import",
-        "name": "KeychainSwift",
-        "printedName": "KeychainSwift",
-        "declKind": "Import",
-        "moduleName": "CTLOcrAI"
-      },
-      {
         "kind": "TypeDecl",
         "name": "CTLOcrService",
         "printedName": "CTLOcrService",
@@ -5110,6 +5103,68 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "CTLOcrAI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CTLOcrKeychainHelper",
+        "printedName": "CTLOcrKeychainHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(dataOfKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CTLOcrAI0A14KeychainHelperC3get9dataOfKeySSSgSS_tFZ",
+            "mangledName": "$s8CTLOcrAI0A14KeychainHelperC3get9dataOfKeySSSgSS_tFZ",
+            "moduleName": "CTLOcrAI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8CTLOcrAI0A14KeychainHelperC",
+        "mangledName": "$s8CTLOcrAI0A14KeychainHelperC",
+        "moduleName": "CTLOcrAI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5122,13 +5177,6 @@
         "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "CTLOcrAI"
-      },
-      {
-        "kind": "Import",
-        "name": "KeychainSwift",
-        "printedName": "KeychainSwift",
         "declKind": "Import",
         "moduleName": "CTLOcrAI"
       },
@@ -6239,13 +6287,6 @@
         "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "CTLOcrAI"
-      },
-      {
-        "kind": "Import",
-        "name": "KeychainSwift",
-        "printedName": "KeychainSwift",
         "declKind": "Import",
         "moduleName": "CTLOcrAI"
       },
@@ -8702,13 +8743,6 @@
         "moduleName": "CTLOcrAI"
       },
       {
-        "kind": "Import",
-        "name": "KeychainSwift",
-        "printedName": "KeychainSwift",
-        "declKind": "Import",
-        "moduleName": "CTLOcrAI"
-      },
-      {
         "kind": "TypeDecl",
         "name": "CTLOcrSpeechService",
         "printedName": "CTLOcrSpeechService",
@@ -10580,7 +10614,7 @@
     {
       "filePath": "\/Users\/hainam2711\/Desktop\/MyDocument\/XCFramework\/CTLOcrAI\/CTLOcrAI\/CTLOcrService\/CTLOcrLoginService.swift",
       "kind": "IntegerLiteral",
-      "offset": 431,
+      "offset": 410,
       "length": 1,
       "value": "1"
     },
@@ -10601,7 +10635,7 @@
     {
       "filePath": "\/Users\/hainam2711\/Desktop\/MyDocument\/XCFramework\/CTLOcrAI\/CTLOcrAI\/CTLOcrService\/CTLOcrBaseService.swift",
       "kind": "BooleanLiteral",
-      "offset": 713,
+      "offset": 692,
       "length": 5,
       "value": "false"
     },

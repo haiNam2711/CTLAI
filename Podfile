@@ -7,7 +7,6 @@ target 'CTLOcrAI' do
 
   # Pods for CTLOcrAI
   pod "Alamofire"
-  pod 'KeychainSwift'
 end
 
 target 'CTLOcrAIDemo' do
@@ -16,5 +15,4 @@ target 'CTLOcrAIDemo' do
 
   # Pods for CTLOcrAI
   pod "Alamofire"
-  pod 'KeychainSwift'
 end

@@ -42,6 +42,7 @@
 		2663A8DD2BA968F100498F4E /* RegisterFaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663A8DC2BA968F100498F4E /* RegisterFaceVC.swift */; };
 		2663A8E32BA9936500498F4E /* CTLOcrCheckinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663A8E22BA9936500498F4E /* CTLOcrCheckinResponse.swift */; };
 		2663A8E52BA9966500498F4E /* CheckinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663A8E42BA9966500498F4E /* CheckinVC.swift */; };
+		2668A2162BBF0C3900BF3043 /* CTLOcrKeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668A2152BBF0C3900BF3043 /* CTLOcrKeychainHelper.swift */; };
 		26A702A22BB5B10D00C2C3E1 /* CTLOcrBhytResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A702A12BB5B10D00C2C3E1 /* CTLOcrBhytResponse.swift */; };
 		26A702A42BB65D1200C2C3E1 /* BhytGetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A702A32BB65D1200C2C3E1 /* BhytGetVC.swift */; };
 		26A702A62BB6604300C2C3E1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A702A52BB6604300C2C3E1 /* Constant.swift */; };
@@ -101,6 +102,7 @@
 		2663A8DC2BA968F100498F4E /* RegisterFaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFaceVC.swift; sourceTree = "<group>"; };
 		2663A8E22BA9936500498F4E /* CTLOcrCheckinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTLOcrCheckinResponse.swift; sourceTree = "<group>"; };
 		2663A8E42BA9966500498F4E /* CheckinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinVC.swift; sourceTree = "<group>"; };
+		2668A2152BBF0C3900BF3043 /* CTLOcrKeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTLOcrKeychainHelper.swift; sourceTree = "<group>"; };
 		26A702A12BB5B10D00C2C3E1 /* CTLOcrBhytResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTLOcrBhytResponse.swift; sourceTree = "<group>"; };
 		26A702A32BB65D1200C2C3E1 /* BhytGetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhytGetVC.swift; sourceTree = "<group>"; };
 		26A702A52BB6604300C2C3E1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 			children = (
 				26BCA6272BAD3FE000583F18 /* Date+Extension.swift */,
 				26A702A52BB6604300C2C3E1 /* Constant.swift */,
+				2668A2152BBF0C3900BF3043 /* CTLOcrKeychainHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -583,6 +586,7 @@
 				26BCA6332BAD6DC000583F18 /* CTLOcrS2TResponse.swift in Sources */,
 				2663A8E32BA9936500498F4E /* CTLOcrCheckinResponse.swift in Sources */,
 				26BCA6212BAD2E9900583F18 /* CTLOcrGetUserResponse.swift in Sources */,
+				2668A2162BBF0C3900BF3043 /* CTLOcrKeychainHelper.swift in Sources */,
 				262691C82BA829AA0044A06E /* CTLOcrLoginService.swift in Sources */,
 				262B7D322BB2C628004AA12D /* CTLOcrUseCase.swift in Sources */,
 				26E6C88C2BA8277F003C2A0E /* CTLOcrAPIClient.swift in Sources */,

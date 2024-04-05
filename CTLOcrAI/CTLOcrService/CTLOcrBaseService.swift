@@ -7,7 +7,6 @@
 
 import Foundation
 import Alamofire
-import KeychainSwift
 
 public class CTLOcrBaseService {
     
@@ -71,7 +70,7 @@ public class CTLOcrBaseService {
     }
     
     private func handleToken() -> String? {
-        if let expireDateString = KeychainSwift().get("expire") {
+        if let expireDateString = CTLOcrKeychainHelper.get(dataOfKey: "expire") {
             let expireDate = Date(loginResponseString: expireDateString)
             let currentDate = Date()
             if expireDate <= currentDate {

@@ -7,7 +7,6 @@
 
 import Foundation
 import Alamofire
-import KeychainSwift
 
 public class CTLOcrSpeechService: CTLOcrBaseService {
     
@@ -21,8 +20,9 @@ public class CTLOcrSpeechService: CTLOcrBaseService {
         let params: [String: String] = [
             "file": file
         ]
+        
         let headers: HTTPHeaders? = [
-            "Authorization": KeychainSwift().get("token")!
+            "Authorization": CTLOcrKeychainHelper.get(dataOfKey: "token")!
         ]
         
         call(CTLOcrSpeechUseCase.speechToText,additionHeaders: headers, params: params, dataType: CTLOcrS2TResponse.self) { response in
@@ -32,7 +32,7 @@ public class CTLOcrSpeechService: CTLOcrBaseService {
     
     public func speechToText(from localURL: URL, completionHandler: @escaping (Result<CTLOcrS2TResponse, CTLOcrAPIError>) -> Void) {
         let headers: HTTPHeaders? = [
-            "Authorization": KeychainSwift().get("token")!
+            "Authorization": CTLOcrKeychainHelper.get(dataOfKey: "token")!
         ]
         let multipartFD = MultipartFormData()
         multipartFD.append(localURL, withName: "file")
@@ -47,7 +47,7 @@ public class CTLOcrSpeechService: CTLOcrBaseService {
             "text": file
         ]
         let headers: HTTPHeaders? = [
-            "Authorization": KeychainSwift().get("token")!
+            "Authorization": CTLOcrKeychainHelper.get(dataOfKey: "token")!
         ]
         guard let headers else { return }
         call(CTLOcrSpeechUseCase.textToSpeech,additionHeaders: headers, params: params, dataType: CTLOcrT2SResponse.self) { response in

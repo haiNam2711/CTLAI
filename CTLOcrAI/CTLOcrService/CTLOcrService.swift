@@ -7,7 +7,6 @@
 
 import Foundation
 import Alamofire
-import KeychainSwift
 
 public class CTLOcrService: CTLOcrBaseService {
     
@@ -22,7 +21,7 @@ public class CTLOcrService: CTLOcrBaseService {
             "link": link
         ]
         let headers: HTTPHeaders? = [
-            "Authorization": "Bearer \(KeychainSwift().get("token")!)"
+            "Authorization": "Bearer \(CTLOcrKeychainHelper.get(dataOfKey: "token")!)"
         ]
         
         call(CTLOcrUseCase.cmtGet,additionHeaders: headers, params: params, dataType: CTLOcrCmtResponse.self) { response in
@@ -32,7 +31,7 @@ public class CTLOcrService: CTLOcrBaseService {
     
     public func getCmtInfo(image: UIImage, completionHandler: @escaping (Result<CTLOcrCmtResponse, CTLOcrAPIError>) -> Void) {
         let headers: HTTPHeaders = [
-            "Authorization": KeychainSwift().get("token")!
+            "Authorization": CTLOcrKeychainHelper.get(dataOfKey: "token")!
         ]
         
         guard let jpegImage = image.jpegData(compressionQuality: 1.0) else { return }
@@ -49,7 +48,7 @@ public class CTLOcrService: CTLOcrBaseService {
             "link": link
         ]
         let headers: HTTPHeaders? = [
-            "Authorization": "Bearer \(KeychainSwift().get("token")!)"
+            "Authorization": "Bearer \(CTLOcrKeychainHelper.get(dataOfKey: "token")!)"
         ]
         
         call(CTLOcrUseCase.bhytGet,additionHeaders: headers, params: params, dataType: CTLOcrBhytResponse.self) { response in
@@ -59,7 +58,7 @@ public class CTLOcrService: CTLOcrBaseService {
     
     public func getBhytInfo(image: UIImage, completionHandler: @escaping (Result<CTLOcrBhytResponse, CTLOcrAPIError>) -> Void) {
         let headers: HTTPHeaders = [
-            "Authorization": KeychainSwift().get("token")!
+            "Authorization": CTLOcrKeychainHelper.get(dataOfKey: "token")!
         ]
         
         guard let jpegImage = image.jpegData(compressionQuality: 1.0) else { return }
